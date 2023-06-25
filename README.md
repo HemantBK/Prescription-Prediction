@@ -1,4 +1,4 @@
-Patient's Condition Classification Using Drug Reviews
+## Patient's Condition Classification Using Drug Reviews
 This project uses natural language processing to classify patients' conditions based on their reviews of drugs. The dataset consists of 161,297 drug reviews, each of which includes the drug name, condition, review text, rating, date, and number of users who found the review useful. The project focuses on classifying the following conditions:
 
 Depression
