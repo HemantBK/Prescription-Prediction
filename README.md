@@ -14,7 +14,7 @@ The project repository is organized as follows:
 ### Getting Started
 To run the project on your local machine, follow these steps:
 
-1) Clone the repository: git clone https://github.com/your-username/data-science-professional-project.git.
+1) Clone the repository: git clone (https://github.com/HemantBK/Classification-Using-Drug-Reviews)
 2) Navigate to the project directory: cd data-science-professional-project.
 3) Set up a virtual environment (optional but recommended): python -m venv venv (or use your preferred method for creating virtual environments).
 4) Activate the virtual environment: source venv/bin/activate (for Unix-based systems) or venv\Scripts\activate (for Windows).
