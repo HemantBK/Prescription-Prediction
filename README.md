@@ -1,56 +1,45 @@
 ## Patient's Condition Classification Using Drug Reviews
-This project uses natural language processing to classify patients' conditions based on their reviews of drugs. The dataset consists of 161,297 drug reviews, each of which includes the drug name, condition, review text, rating, date, and number of users who found the review useful. The project focuses on classifying the following conditions:
+This repository contains a data science project that focuses on text classification. The project aims to classify patient's conditions using drug reviews and ratings.
 
-Depression
-High Blood Pressure
-Diabetes, Type 2
-Getting Started
-To get started with the project, you will need to install the following dependencies:
+### Project Structure
+The project repository is organized as follows:
 
-pip install pandas numpy sklearn streamlit
+1) data/: This directory contains the dataset used for training and evaluation.
+2) notebooks/: This directory contains Jupyter notebooks used for data preprocessing, model training, and evaluation.
+3) models/: This directory is used to store trained models.
+4) src/: This directory contains the source code for the project, including data preprocessing, model implementation, and evaluation scripts.
+5) requirements.txt: This file lists the Python dependencies required to run the project.
+6) README.md: This file provides an overview of the project, its structure, and instructions for running the code.
 
-Code snippet
+### Getting Started
+To run the project on your local machine, follow these steps:
 
-Once you have installed the dependencies, you can run the project by following these steps:
+1) Clone the repository: git clone https://github.com/your-username/data-science-professional-project.git.
+2) Navigate to the project directory: cd data-science-professional-project.
+3) Set up a virtual environment (optional but recommended): python -m venv venv (or use your preferred method for creating virtual environments).
+4) Activate the virtual environment: source venv/bin/activate (for Unix-based systems) or venv\Scripts\activate (for Windows).
+5) Install the required dependencies: pip install -r requirements.txt.
+6) Run the Jupyter notebooks in the notebooks/ directory to preprocess the data, train the models, and evaluate the results.
+7) Alternatively, you can directly use the scripts in the src/ directory for data preprocessing, model training, and evaluation, as per your requirements.
 
-1. Clone the GitHub repository:
+   
+### Dataset
+The dataset used in this project consists of drug reviews and ratings, along with the corresponding patient's condition. The dataset is located in the data/ directory of this repository.
 
-Use code with caution. Learn more
-git clone https://github.com/[Your GitHub Username]/patient-condition-classification.git
+### Model
+The project employs various machine learning algorithms for text classification, including but not limited to:
 
-Code snippet
+Naive Bayes
+Support Vector Machines (SVM)
+Random Forest
 
-2. Change directory to the project folder:
+The models are implemented in Python using popular libraries such as scikit-learn and NLTK.
 
-Use code with caution. Learn more
-cd patient-condition-classification
+### Results
+The project aims to achieve accurate classification of patient's conditions based on drug reviews. The evaluation metrics used for model performance include accuracy, precision, recall, and F1 score. The results of the experiments can be found in the Jupyter notebooks or the evaluation scripts in the src/ directory.
 
-Code snippet
+### Contributions
+Contributions to the project are welcome. If you find any issues or want to suggest improvements, please open an issue or submit a pull request with your proposed changes.
 
-3. Run the Streamlit app:
-
-Use code with caution. Learn more
-streamlit run app.py
-
-Code snippet
-
-## Project Structure
-
-The project is structured as follows:
-
-Use code with caution. Learn more
-├── data
-│   └── drug_reviews.csv
-├── app.py
-├── README.md
-└── requirements.txt
-
-The data directory contains the drug reviews dataset. The app.py file contains the code for the Streamlit app. The README.md file contains this README file. The requirements.txt file lists the dependencies for the project.
-
-Usage
-The Streamlit app can be used to classify patients' conditions based on their drug reviews. To use the app, simply enter a drug review in the text box and click the "Classify" button. The app will then classify the condition of the patient who wrote the review.
-
-Contact
-If you have any questions about the project, please contact me at hemantbkgamer@gmail.com
-
-I hope this helps!
+### Contact
+For any inquiries or questions, please contact me.
